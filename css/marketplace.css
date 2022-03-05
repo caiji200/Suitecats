@@ -1,0 +1,170 @@
+/*
+Table of contents:
+1-Main Page Sections
+2-Marketplace Section Content
+3-Inner Table Content
+4-Icons (Aside Content)
+*/
+
+/*
+Main Page Sections
+*/
+content{
+	min-width: calc(1440px);
+	margin-top: -25px;
+}
+
+aside{
+	width:12.5%;
+	min-width: 300px;
+	float: left;
+	margin-top: 200px;
+}
+
+#marketplace{
+	float: left;
+	width: 65%;
+	max-width: calc(100% - 600px);
+	min-width: 840px;
+}
+
+/*
+Marketplace Section Content
+*/
+
+.forward_backward{
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.image_button{
+	width: 70px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 65px 45px;
+	border-radius: 1px;
+	background-position: 1px -3px;
+	border-style: none;
+	background-color: transparent;
+}
+
+.page_label{
+	text-align: center;
+	float: left;
+	min-width: 100px;
+	width: calc(100% - 360px);
+	height: 40px;
+	/*TODO resize this text*/
+}
+
+#market_table{
+	width: 100%;
+	float: left;
+	border-bottom: solid black 2px;
+	box-shadow: rgba(0, 0, 255, .2) 10px 10px 2px;
+}
+
+button:disabled {
+	cursor: not-allowed;
+	font-size: 12px; /*Because error messages are longer*/
+}
+
+#far_back {
+	background-image: url(../cat_images/icons/ArrowL2.png);
+}
+#back {
+	background-image: url(../cat_images/icons/ArrowL1.png);
+}
+#forward {
+	background-image: url(../cat_images/icons/ArrowR1.png);
+}
+#far_forward {
+	background-image: url(../cat_images/icons/ArrowR2.png);
+}
+
+/*
+Inner Table Content
+*/
+.cat_image{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: solid black 2px;
+	border-bottom: 0px;
+	box-shadow: rgba(0, 0, 255, .2) 10px 10px inset;
+}
+
+.row{
+	width: calc(100% - 156px);
+	float: left;
+	border: solid black 2px;
+	border-left: 0px;
+	border-bottom: 0px;
+	height: 150px;
+	font-size: 20px;
+	box-shadow: rgba(0, 0, 255, .2) 0px 10px inset;
+}
+
+.row_info{
+	width: calc(99% - 85px);
+	margin-left: 1%;
+	height: 100%;
+	float: left;
+}
+
+.name{
+	float: left;
+	width: 90%;
+	margin-left: 10%;
+	margin-bottom: 3px;
+}
+
+.detail{
+	width: 33.3%;
+	float: left;
+	height: 45px;
+	margin-bottom: -2px;
+}
+
+.purchase{
+	width: 80px;
+	height: 135px;
+	float: left;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+.buy_cat{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.worth{
+	height: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+/*
+Icons
+*/
+.icon{
+	width: 300px;
+	height: 325px;
+	box-shadow:0px 7px 2px -2px rgba(0, 0, 255, .2);
+}
+
+#icon_left {
+	margin-left: -8px;
+}
+
+#icon_right {
+	margin-right: -8px;
+}

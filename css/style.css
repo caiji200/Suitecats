@@ -1,0 +1,133 @@
+/*NOTES:
+Make a css page for each webpage! This is only for styling that affects many pages.
+
+nothing in here is solid, I only did a few of these things to give a framework to start from
+
+also how can we enforce a minimum width so things don't squish?
+
+I threw stupid amounts of comments below to mark out some things that will need to be changed for sure
+
+-MR
+*/
+
+/*TODO: organize elements in this file*/
+
+*{
+}
+
+body {
+	background: linear-gradient(0deg, rgba(148,187,233,1) 0%, rgba(238,174,202,0.9472382703081232) 100%);
+}
+
+#star_effects {
+	background-image: url("../cat_images/icons/background_effects.gif");
+	background-size: fixed;
+	background-position: center left;
+}
+
+header{
+	min-width: 1015px;
+	height: 200px;
+	border-bottom: solid black 2px;
+	
+}
+
+#website_header{
+	border-bottom: solid black 2px;
+	height: 152px;
+	min-width: 1000px;
+}
+
+a {
+	text-decoration: none;
+}
+
+menu{
+	position: relative;
+	top: -25px;
+	float: left;
+	width: 60%;
+	min-width: 1000px;
+	height: 50px;
+	margin-left: calc((90% - 1000px)/2);
+}
+
+.menu_button{ /*this is mostly good. TODO: styling*/
+	text-align: center;
+	float: left;
+	width: 200px;
+	color: #222222;
+}
+
+.menu_button:hover{
+	color: #888888; /*TODO: stylize*/
+}
+
+#website_title{ /*TODO: stylize*/
+	margin-left: calc(35% - 200px);
+	float: left;
+	color: #222222;
+	font-size: 50px;
+}
+
+#mascot{
+	float: left;
+	width: 150px;
+	height: 152px;
+	margin-left: calc(35% - 150px);
+}
+
+#user_info_box{
+	float: left;
+	border: solid black 2px;
+	border-left: 0px;
+	height: 150px;
+	box-shadow: rgba(0, 0, 255, .2) 15px -2px 2px;
+}
+
+.user_box_element{
+	min-width: 154px;
+	height: 40px;
+	font-size: 24px;
+	margin: 5px;
+}
+
+content{
+	float: left;
+	width: 100%;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	border-top: solid black 2px; /*may want to change how we mark out this border*/
+}
+
+#footer_info{
+	color: #222222; /*TODO: stylize*/
+	font-size: 10px;
+	float: left;
+}
+
+button{
+	border-radius: 15px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.heading{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+.icon{
+	float: left;
+	width: 200px;
+	height: 500px;
+	margin: 5px;
+}

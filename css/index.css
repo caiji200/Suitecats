@@ -1,0 +1,110 @@
+/*
+Table of contents:
+1. Table outline and elements (paddings...)
+2. Div groups (affects the levelling of the icons)
+3. Map Icons and Labels
+4. Road/SignUp Button
+5. Log In Form styling
+6. Background of the Website and adjustable content sizing
+*/
+
+
+/*1. Table outline and elements */
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1500px;
+	background-image: url("../cat_images/icons/Small_Roads.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 1500px 250px;
+}
+
+th, td {
+	padding:10px;
+}
+
+/*2. Div groups (affects the levelling of the icons)*/
+#raised_div {
+	margin-bottom:25%;
+}
+
+#lowered_div {
+	margin-top:25%;
+}
+
+/*3. Map Icons and Labels*/
+button {
+	background-color: transparent;
+}
+
+#log_out, #log_in {
+	background-color: white;
+}
+
+#icon_marketplace {
+	background-image: url("../cat_images/icons/Market_Place_Icon.png");
+	background-position: center;
+	background-size: cover;
+	border-style: none;
+	height:400px; 
+	width:350px;
+}
+
+#icon_suite {
+	background-image: url("../cat_images/icons/Suite_Icon.png");
+	background-position: center;
+	background-size: cover;
+	border-style: none;
+	height:400px; 
+	width:350px;
+}
+
+#icon_adoption {
+	background-image: url("../cat_images/icons/Adoption_Icon.png");
+	background-position: center;
+	background-size: cover;
+	border-style: none;
+	height:400px; 
+	width:350px;
+}
+
+.labels {
+	font-size:200%;
+	float:center;
+	color:#cf8943;
+	background-position: center;
+}
+
+/*4. Road/SignUp Buttons*/
+.road {
+	min-width:1500px;
+	background-color:#3B2D2A;
+	border: 0px;
+	width: 100%;
+}
+
+#road_signed_in {
+	width: 100%;
+	float:center;
+	min-height: 82px;
+	min-width:1500px;
+	background-color:#3B2D2A;
+	border: 0px;
+}
+
+/*5. Log In Form */
+#log_in_error_message {
+	color: red;
+	margin-bottom: -10px;
+}
+
+#log_in {
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	margin: 5px;
+}
+
+/*6. Background of the Website and adjustable content sizing*/
